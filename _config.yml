@@ -5,8 +5,8 @@ menu:
   Categories: categories  # 分类
   Tags: tags  # 标签
   Repository: repository  # github repositories
-  Books: books  # 豆瓣书单
-  Links: links  # 友链
+  # Books: books  # 豆瓣书单
+  # Links: links  # 友链
   About: about  # 关于
 
 # Enable/Disable menu icons
@@ -17,8 +17,8 @@ menu_icons:
   categories: icon-folder
   tags: icon-tags
   repository: icon-project
-  books: icon-book-fill
-  links: icon-friendship
+  # books: icon-book-fill
+  # links: icon-friendship
   about: icon-cup-fill
 
 # rss
@@ -31,7 +31,7 @@ site:
     width: 40
     height: 40
     url: ../images/logo.png
-  title: Hexo # 页面title
+  title: 洛阳城头看落阳 # 页面title
   favicon: /favicon.png
   board: <p>欢迎交流与分享经验!</p> # 站点公告
   copyright: false # 底部版权信息
@@ -56,7 +56,7 @@ pagination:
 # Sidebar
 sidebar: right
 widgets:
-  - board  
+  # - board  
   - category
   - tag
   - tagcloud
@@ -83,7 +83,7 @@ search:
 
 # Donate
 donate:
-  enable: true
+  enable: false
   # 微信打赏
   wechatpay:
     qrcode: images/donate/wechatpayimg.png
@@ -102,16 +102,16 @@ share:
 
 # Github
 github: 
-  username: cofess  # github username
+  username: xmzzyo  # github username
 
 # Comment
 # Gitment
 # Introduction: https://imsun.net/posts/gitment-introduction/
 comment:
-  type: valine  # 启用哪种评论系统
+  type:  # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan: 
-    uid: 1783844 # enter youyan uid 
+    uid: # enter youyan uid 
   livere:
     uid: # enter youyan uid 
   gitment:
@@ -172,7 +172,7 @@ postCount:
 plugins:
   google_analytics: # enter the tracking ID for your Google Analytics
   google_site_verification: # enter Google site verification code
-  baidu_analytics: # enter Baidu Analytics hash key
+  baidu_analytics: 5b8968d29b062c2b158f75733d315d20# enter Baidu Analytics hash key
   tencent_analytics: 
   
 # Miscellaneous
@@ -184,53 +184,52 @@ fb_app_id:
 # profile
 profile:
   enabled: true # Whether to show profile bar
-  avatar: images/avatar.jpg
+  avatar: images/touxiang.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
-  author_title: Web Developer & Designer
-  author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  author: zzyo
+  author_title:
+  author_description: 技术活，当赏~
+  location: Beijing, China
+  follow: https://github.com/xmzzyo
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      github: https://github.com/xmzzyo
+      zhihu: https://www.zhihu.com/people/zzyo-25
+      # weibo: http://weibo.com/cofess
+      # twitter: https://twitter.com/iwebued
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/cofess
+      # behance: https://www.behance.net/cofess
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
-  skills:
-    Git: ★★★☆☆
-    Gulp: ★★★☆☆
-    Javascript: ★★★☆☆
-    HTML+CSS: ★★★☆☆
-    Bootstrap: ★★★☆☆
-    ThinkPHP: ★★★☆☆
-    平面设计: ★★★☆☆
+  # skills:
+  #   Git: ★★★☆☆
+  #   Gulp: ★★★☆☆
+  #   Javascript: ★★★☆☆
+  #   HTML+CSS: ★★★☆☆
+  #   Bootstrap: ★★★☆☆
+  #   ThinkPHP: ★★★☆☆
+  #   平面设计: ★★★☆☆
   # My Personal Links
   links:
     Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
+    知乎: https://www.zhihu.com/people/zzyo-25
+    # Blog: http://blog.cofess.com
+    # 微博: http://weibo.com/cofess
+    # 花瓣: http://huaban.com/cofess
+    # Behance: https://www.behance.net/cofess
   # My Personal Labels
   labels:
-    - 前端
-    - 前端开发
-    - 前端重构
-    - Web前端
-    - 网页重构
+    - NLP
+    - RecSys
   # My Personal Works
-  works:
-    name:
-      link: http://www.example.com
-      date: 2016
+  # works:
+  #   name:
+  #     link: http://www.example.com
+  #     date: 2016
   # My Personal Projects
-  projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+  # projects:
+  #   cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+  #   cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
