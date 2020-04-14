@@ -74,7 +74,7 @@ archive_type: 'monthly'
 show_count: true
 
 # Fancybox
-fancybox: false
+fancybox: true
 
 # Search
 search:
@@ -168,11 +168,16 @@ postCount:
   wordcount: true  # 文章字数统计
   min2read: true  # 阅读时长预计 
 
+verifyPassword:
+  enable: true
+  promptMessage: 请输入访问本文章的密码
+  errorMessage: 密码错误，将返回主页！
+
 # Plugins
 plugins:
   google_analytics: # enter the tracking ID for your Google Analytics
   google_site_verification: # enter Google site verification code
-  baidu_analytics: 5b8968d29b062c2b158f75733d315d20# enter Baidu Analytics hash key
+  baidu_analytics: 5b8968d29b062c2b158f75733d315d20
   tencent_analytics: 
   
 # Miscellaneous

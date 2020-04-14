@@ -1,3 +1,18 @@
+<% if (theme.verifyPassword.enable) { %>
+<script src="https://cdn.jsdelivr.net/npm/crypto-js@4.0.0/crypto-js.js"></script>
+<script>
+    (function() {
+        let pwd = '<%- page.password %>';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('<%- theme.verifyPassword.promptMessage %>')).toString(CryptoJS.enc.Hex)) {
+                alert('<%- theme.verifyPassword.errorMessage %>');
+                location.href = '<%- url_for("/")  %>';
+            }
+        }
+    })();
+</script>
+<% } %>
+
 <%- partial('_partial/sidebar-toc', {post: page, index: false}) %>
 <main class="main" role="main">
   <%- partial('_partial/article', {post: page, index: false}) %>
